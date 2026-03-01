@@ -660,7 +660,7 @@ local WaypointTab = WaypointSection:CreateTab("Waypoints", "rbxassetid://1070979
 
 -- Section 4: Copy/Paste System
 WaypointTab:CreateButton({
-    Name = "🚀 ЗАГРУЗИТЬ (ЛЮБОЙ ФОРМАТ)",
+    Name = "Place Waypoints",
     Callback = function()
         -- 1. Очистка
         stopAutoWalk()
@@ -896,7 +896,7 @@ local waypointsData = {
         end
 
         updateWaypointVisuals()
-        warn("✅ Загружено точек: " .. count)
+        warn("✅ Loaded Waypoints: " .. count)
     end
 })
 --------------------------------------------------
